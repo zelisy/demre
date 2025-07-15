@@ -8,10 +8,10 @@ export default function Home() {
         <img
           src="/sera1.jpg"
           alt="Sera"
-          className="object-cover w-full h-full opacity-60"
-          style={{ filter: 'brightness(0.7) blur(1px)', height: '100%' }}
+          className="object-cover w-full h-full opacity-80"
+          style={{ filter: 'brightness(0.9)', height: '100%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-400/80 to-green-500/70" />
+        <div className="absolute inset-0 bg-gradient-to-br from-custom-turquoise/80 to-custom-darkgreen/80" />
       </div>
       {/* Hero Section */}
       <section className="relative flex items-center justify-center min-h-screen w-full overflow-hidden" style={{ zIndex: 1 }}>
