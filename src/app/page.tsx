@@ -1,23 +1,25 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen bg-[#f3f4f6]">
+      {/* Header + Hero Shared Background */}
+      <div className="absolute top-0 left-0 w-full" style={{ height: 'calc(100vh + 5rem)', zIndex: 0 }}>
+        <img
+          src="/sera1.jpg"
+          alt="Sera"
+          className="object-cover w-full h-full opacity-60"
+          style={{ filter: 'brightness(0.7) blur(1px)', height: '100%' }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-teal-400/80 to-green-500/70" />
+      </div>
       {/* Hero Section */}
-      <section className="relative flex items-center justify-center min-h-screen w-full bg-gradient-to-br from-[#14532d] to-[#22c55e] overflow-hidden">
-        {/* Background Image with overlay */}
-        <div className="absolute inset-0 w-full h-full z-0">
-          <img
-            src="/sera1.jpg"
-            alt="Sera"
-            className="object-cover w-full h-full opacity-60"
-            style={{ filter: 'brightness(0.7) blur(1px)' }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-[#14532d]/80 to-[#22c55e]/70" />
-        </div>
+      <section className="relative flex items-center justify-center min-h-screen w-full overflow-hidden" style={{ zIndex: 1 }}>
         <div className="flex flex-col items-center justify-center z-10 text-center px-4 w-full bg-white/10 border-2 border-green-200/60 rounded-xl shadow-lg backdrop-blur-sm py-8 max-w-2xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight drop-shadow-lg font-sans">
             Sera Takip
           </h1>
-          <p className="mt-4 text-lg md:text-2xl text-[#f3f4f6] max-w-2xl mx-auto font-sans">
+          <p className="mt-4 text-lg md:text-2xl text-white max-w-2xl mx-auto font-sans">
             Modern tarımın dijital anahtarı: Sera süreçlerinizi kolayca yönetin, verimliliği artırın.
           </p>
         </div>
