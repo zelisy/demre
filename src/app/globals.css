@@ -21,4 +21,3 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), var(--font-geist-mono), Inter, sans-serif;
 }
-body { border: 10px solid red !important; }
