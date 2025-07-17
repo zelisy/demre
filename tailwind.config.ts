@@ -7,9 +7,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'custom-turquoise': '#22c55e',      // Yeşil ağırlıklı turkuaz
-        'custom-darkgreen': '#166534',      // Tailwind green-800'e yakın koyu yeşil
-        'custom-khaki-green': '#556B2F',    // Haki yeşil tonu
+        'primary': 'oklch(44.8% 0.119 151.328)',
+        'secondary': 'oklch(44.8% 0.119 151.328)',
+        'textlight': '#f8fafc', // çok açık bir renk, isterseniz değiştirilebilir
       },
     },
   },

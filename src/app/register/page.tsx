@@ -43,7 +43,7 @@ export default function RegisterPage() {
           value={form.password}
           onChange={(e) => setForm({ ...form, password: e.target.value })}
         />
-        <button className="bg-green-600 text-white px-4 py-2 rounded">Kayıt Ol</button>
+        <button className="bg-primary text-textlight px-4 py-2 rounded hover:bg-secondary">Kayıt Ol</button>
       </form>
       {message && <p className="mt-4 text-sm text-gray-700">{message}</p>}
     </div>

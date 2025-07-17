@@ -11,11 +11,11 @@ export default function Home() {
           className="object-cover w-full h-full opacity-80"
           style={{ filter: 'brightness(0.9)', height: '100%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-custom-turquoise/80 to-custom-darkgreen/80" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/80 to-secondary/80" />
       </div>
       {/* Hero Section */}
       <section className="relative flex items-center justify-center min-h-screen w-full overflow-hidden" style={{ zIndex: 1 }}>
-        <div className="flex flex-col items-center justify-center z-10 text-center px-4 w-full bg-white/10 border-2 border-green-200/60 rounded-xl shadow-lg backdrop-blur-sm py-8 max-w-2xl mx-auto">
+        <div className="flex flex-col items-center justify-center z-10 text-center px-4 w-full bg-white/10 border-2 border-primary/60 rounded-xl shadow-lg backdrop-blur-sm py-8 max-w-2xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight drop-shadow-lg font-sans">
             Sera Takip
           </h1>
